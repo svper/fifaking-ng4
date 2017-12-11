@@ -1,0 +1,308 @@
+[
+    {
+        "id": 1,
+        "name": "The Kings League",
+        "start_date": "2017-09-28 23:52:34",
+        "competition_type_id": 1,
+        "location": "The Basement",
+        "seed_fixtures": 0,
+        "created_at": "2017-09-28 23:52:34",
+        "updated_at": null,
+        "game": {
+            "id": 2,
+            "name": "FIFA 18",
+            "logo": "FIFA18.png",
+            "created_at": "2017-09-28 23:52:34",
+            "updated_at": null
+        },
+        "admin": {
+            "id": 1,
+            "name": "Verhulst",
+            "firstname": "Robin",
+            "display_name": null,
+            "email": "deverhulst@gmail.com",
+            "created_at": "2017-09-28 23:52:33",
+            "updated_at": null
+        },
+        "comp_type": {
+            "id": 1,
+            "name": "ELO",
+            "created_at": null,
+            "updated_at": null
+        },
+        "matches": [
+            {
+                "id": 1,
+                "home_competitor_team_id": null,
+                "away_competitor_team_id": null,
+                "home_score": 5,
+                "away_score": 1,
+                "unofficial": 0,
+                "team_selection": "free",
+                "match_type": 1,
+                "home_validated": 0,
+                "away_validated": 0,
+                "home_elo": 51,
+                "away_elo": -63,
+                "created_at": "2017-09-28 23:52:34",
+                "updated_at": null,
+                "home_user": {
+                    "id": 1,
+                    "name": "Verhulst",
+                    "firstname": "Robin",
+                    "display_name": null,
+                    "email": "deverhulst@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                },
+                "away_user": {
+                    "id": 2,
+                    "name": "Vermeylen",
+                    "firstname": "Jana",
+                    "display_name": null,
+                    "email": "jana@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                }
+            },
+            {
+                "id": 2,
+                "home_competitor_team_id": null,
+                "away_competitor_team_id": null,
+                "home_score": 2,
+                "away_score": 2,
+                "unofficial": 0,
+                "team_selection": "free",
+                "match_type": 1,
+                "home_validated": 0,
+                "away_validated": 0,
+                "home_elo": 100,
+                "away_elo": -36,
+                "created_at": "2017-09-28 23:52:34",
+                "updated_at": null,
+                "home_user": {
+                    "id": 1,
+                    "name": "Verhulst",
+                    "firstname": "Robin",
+                    "display_name": null,
+                    "email": "deverhulst@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                },
+                "away_user": {
+                    "id": 3,
+                    "name": "Stassyns",
+                    "firstname": "Sven",
+                    "display_name": null,
+                    "email": "sven@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                }
+            },
+            {
+                "id": 3,
+                "home_competitor_team_id": null,
+                "away_competitor_team_id": null,
+                "home_score": 10,
+                "away_score": 3,
+                "unofficial": 0,
+                "team_selection": "free",
+                "match_type": 1,
+                "home_validated": 0,
+                "away_validated": 0,
+                "home_elo": 20,
+                "away_elo": -20,
+                "created_at": "2017-09-28 23:52:34",
+                "updated_at": null,
+                "home_user": {
+                    "id": 2,
+                    "name": "Vermeylen",
+                    "firstname": "Jana",
+                    "display_name": null,
+                    "email": "jana@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                },
+                "away_user": {
+                    "id": 3,
+                    "name": "Stassyns",
+                    "firstname": "Sven",
+                    "display_name": null,
+                    "email": "sven@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                }
+            }
+        ],
+        "entrants": [
+            {
+                "competition_id": 1,
+                "user_id": 1,
+                "competitor_team_id": null
+            },
+            {
+                "competition_id": 1,
+                "user_id": 2,
+                "competitor_team_id": null
+            },
+            {
+                "competition_id": 1,
+                "user_id": 3,
+                "competitor_team_id": null
+            },
+            {
+                "competition_id": 1,
+                "user_id": 4,
+                "competitor_team_id": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Regular League",
+        "start_date": "2017-09-28 23:52:34",
+        "competition_type_id": 2,
+        "location": "Svek",
+        "seed_fixtures": 1,
+        "created_at": "2017-09-28 23:52:34",
+        "updated_at": null,
+        "game": {
+            "id": 2,
+            "name": "FIFA 18",
+            "logo": "FIFA18.png",
+            "created_at": "2017-09-28 23:52:34",
+            "updated_at": null
+        },
+        "admin": {
+            "id": 1,
+            "name": "Verhulst",
+            "firstname": "Robin",
+            "display_name": null,
+            "email": "deverhulst@gmail.com",
+            "created_at": "2017-09-28 23:52:33",
+            "updated_at": null
+        },
+        "comp_type": {
+            "id": 2,
+            "name": "League",
+            "created_at": null,
+            "updated_at": null
+        },
+        "matches": [
+            {
+                "id": 4,
+                "home_competitor_team_id": null,
+                "away_competitor_team_id": null,
+                "home_score": 5,
+                "away_score": 4,
+                "unofficial": 0,
+                "team_selection": "free",
+                "match_type": 1,
+                "home_validated": 0,
+                "away_validated": 0,
+                "home_elo": 45,
+                "away_elo": -45,
+                "created_at": "2017-09-28 23:52:34",
+                "updated_at": null,
+                "home_user": {
+                    "id": 2,
+                    "name": "Vermeylen",
+                    "firstname": "Jana",
+                    "display_name": null,
+                    "email": "jana@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                },
+                "away_user": {
+                    "id": 3,
+                    "name": "Stassyns",
+                    "firstname": "Sven",
+                    "display_name": null,
+                    "email": "sven@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                }
+            },
+            {
+                "id": 5,
+                "home_competitor_team_id": null,
+                "away_competitor_team_id": null,
+                "home_score": 1,
+                "away_score": 3,
+                "unofficial": 0,
+                "team_selection": "free",
+                "match_type": 1,
+                "home_validated": 0,
+                "away_validated": 0,
+                "home_elo": 20,
+                "away_elo": -20,
+                "created_at": "2017-09-28 23:52:34",
+                "updated_at": null,
+                "home_user": {
+                    "id": 2,
+                    "name": "Vermeylen",
+                    "firstname": "Jana",
+                    "display_name": null,
+                    "email": "jana@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                },
+                "away_user": {
+                    "id": 1,
+                    "name": "Verhulst",
+                    "firstname": "Robin",
+                    "display_name": null,
+                    "email": "deverhulst@gmail.com",
+                    "created_at": "2017-09-28 23:52:33",
+                    "updated_at": null
+                }
+            }
+        ],
+        "entrants": []
+    },
+    {
+        "id": 3,
+        "name": "Playoffs",
+        "start_date": "2017-09-28 23:52:34",
+        "competition_type_id": 3,
+        "location": " Garden",
+        "seed_fixtures": 0,
+        "created_at": "2017-09-28 23:52:34",
+        "updated_at": null,
+        "game": {
+            "id": 2,
+            "name": "FIFA 18",
+            "logo": "FIFA18.png",
+            "created_at": "2017-09-28 23:52:34",
+            "updated_at": null
+        },
+        "admin": {
+            "id": 1,
+            "name": "Verhulst",
+            "firstname": "Robin",
+            "display_name": null,
+            "email": "deverhulst@gmail.com",
+            "created_at": "2017-09-28 23:52:33",
+            "updated_at": null
+        },
+        "comp_type": {
+            "id": 3,
+            "name": "Knockout",
+            "created_at": null,
+            "updated_at": null
+        },
+        "matches": [],
+        "entrants": [
+            {
+                "competition_id": 3,
+                "user_id": null,
+                "competitor_team_id": 1
+            },
+            {
+                "competition_id": 3,
+                "user_id": null,
+                "competitor_team_id": 2
+            }
+        ]
+    }
+]
